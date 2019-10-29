@@ -2,10 +2,11 @@ jQuery(function ($) {
 
 	//navbar-fixed-top
 	$(window).on('scroll', function () {
-		if ($(window).scrollTop() > 200) {
-			$('#MenuSec').addClass('navbar-fixed-top');
+		if ($(window).scrollTop() > 0) {
+			$("#MenuSec").addClass('navbar-fixed-top');
 		} else {
 			$('#MenuSec').removeClass('navbar-fixed-top');
+
 		}
 	});
 
