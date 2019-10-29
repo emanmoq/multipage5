@@ -56,6 +56,20 @@ transition: all .5s;
     background-color:  #24584f
 
 }
+#MenuSec.navbar-fixed-top .navbar-nav>li>.dropdown-menu{
+    background-color:  #24584f;
+    top:139%;
+
+}
+#MenuSec.navbar-fixed-top .navbar-nav>li>.dropdown-menu .dropdown-item:hover{
+    background-color:  white;
+}
+#MenuSec.navbar-fixed-top .navbar-nav>li>.dropdown-menu a{
+    color:white;
+}
+#MenuSec.navbar-fixed-top .navbar-nav>li>.dropdown-menu .dropdown-item:hover {
+    color:#24584f;
+}
 #MenuSec.navbar-fixed-top .nav-item:hover::after, #MenuSec.navbar-fixed-top .nav-item.active::after{
     background-color:white;
 }
