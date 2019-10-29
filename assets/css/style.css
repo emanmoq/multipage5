@@ -98,11 +98,9 @@ transition: all .5s;
     height:540px;
 }
 .carousel-fade .carousel-inner .item{
-    transition-property: opacity;
     background-repeat: no-repeat;
     background-size: cover;
-    height:2073px;
-    transition: all .1s;
+    transition :.8s all;
 
 }
 
